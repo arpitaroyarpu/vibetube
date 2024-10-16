@@ -203,3 +203,32 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
+
+@media (max-width: 900px) {
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-left: 5%;
+        padding-right: 20%;
+    }
+    .navRight img{
+        display: none;
+    }
+    .navRight .user-icon{
+        display: block;
+        width: 20px;
+    }
+    .navMiddle .search-box input{
+        width: 100px;
+    }
+    .navMiddle .mic-icon{
+        display: none;
+    }
+    .navLeft .logo{
+        width: 90px;
+    }
+}
